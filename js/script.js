@@ -127,68 +127,6 @@ $(document).ready(function () {
       },
     },
   });
-  ///////// ** product slider** /////////
-  var specials1 = new Swiper(".product-two .swiper-container", {
-    loop: true,
-    autoplay: true,
-    pagination: {
-      el: ".product-two .swiper-pagination",
-      clickable: true,
-    },
-    navigation: {
-      nextEl: ".product-two .swiper-btn-next",
-      prevEl: ".product-two .swiper-btn-prev",
-    },
-    breakpoints: {
-      0: {
-        slidesPerView: 2,
-        spaceBetween: 15,
-      },
-      767: {
-        slidesPerView: 2,
-        spaceBetween: 15,
-      },
-      992: {
-        slidesPerView: 3,
-        spaceBetween: 15,
-      },
-      1199: {
-        slidesPerView: 4,
-        spaceBetween: 30,
-      },
-    },
-  });
-  ///////// ** product slider** /////////
-  var specials2 = new Swiper(".product-three .swiper-container", {
-    loop: true,
-    autoplay: true,
-    pagination: {
-      el: ".product-three .swiper-pagination",
-      clickable: true,
-    },
-    navigation: {
-      nextEl: ".product-three .swiper-btn-next",
-      prevEl: ".product-three .swiper-btn-prev",
-    },
-    breakpoints: {
-      0: {
-        slidesPerView: 2,
-        spaceBetween: 15,
-      },
-      767: {
-        slidesPerView: 2,
-        spaceBetween: 15,
-      },
-      992: {
-        slidesPerView: 3,
-        spaceBetween: 15,
-      },
-      1199: {
-        slidesPerView: 4,
-        spaceBetween: 30,
-      },
-    },
-  });
 
   ////////////** footer transfer into accordion **//////////
 
